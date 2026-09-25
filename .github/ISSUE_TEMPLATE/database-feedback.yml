@@ -1,0 +1,48 @@
+name: Database feedback
+description: Report a correction, missing source, or problem with a taxon profile or website content.
+title: "[Feedback] "
+body:
+  - type: input
+    id: vsn
+    attributes:
+      label: VSN identifier
+      description: Provide the VSN if this report concerns an individual taxon profile.
+      placeholder: VSN_0001
+  - type: input
+    id: taxon
+    attributes:
+      label: Scientific name
+      description: Scientific name shown on the profile, if applicable.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feedback category
+      options:
+        - Taxonomy or nomenclature
+        - Distribution
+        - Host record
+        - Citation or bibliography
+        - Newly published evidence
+        - Website or broken link
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be reviewed?
+      description: Describe the apparent problem, missing evidence, or suggested correction.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source
+      description: Provide a publication citation, DOI, stable URL, or other supporting evidence when available.
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Submission check
+      options:
+        - label: I understand that this report will be reviewed before any change is made to the curated database.
+          required: true
