@@ -1,8 +1,8 @@
 # China Scolytinae & Platypodinae Database — Feedback
 
-This public repository is the issue tracker for the **China Scolytinae & Platypodinae Database**.
+This public repository is the issue tracker for the **[China Scolytinae & Platypodinae Database](https://dongyiyi.github.io/china-scolytinae-database-site/)**.
 
-Use **Issues** to report a correction, suggest published evidence, or flag a problem with an individual taxon profile or other public database content.
+Use **[Issues](https://github.com/dongyiyi/china-scolytinae-database-feedback/issues)** to report a correction, suggest published evidence, or flag a problem with an individual taxon profile or other public database content.
 
 ## What to include
 
@@ -21,6 +21,6 @@ Appropriate reports include:
 
 Feedback submitted here does not directly modify the database. Reports are reviewed against the underlying evidence before any change is integrated into the curated database.
 
-For structured submission of new evidence, please use the **Contribute** page on the database website once the public website is released.
+For structured submission of new evidence, use the **[Contribute page](https://dongyiyi.github.io/china-scolytinae-database-site/#/contribute)** on the database website.
 
 This repository contains no database source files or internal curation materials; it is maintained solely as a public feedback channel.
